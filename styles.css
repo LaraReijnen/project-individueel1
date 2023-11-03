@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+img{
+    object-fit: contain;
+}
+
+/*nav*/
+nav img{
+    width: 50px;
+    object-fit: contain;
+}
+.sidebar {
+    position: fixed;
+    left: -250px;
+    width: 200px;
+    height: auto;
+    background: forestgreen;
+    transition: all .5s ease;
+}
+
+.sidebar h1 {
+    font-size: 22px;
+    text-align: center;
+    line-height: 75px;
+    background: grey;
+}
+
+.sidebar ul a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 20px;
+    color: black;
+    padding-left: 40px;
+    box-sizing: border-box;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+ul li:hover {
+    background-color: antiquewhite;
+    transition: 0.2s ease;
+}
+
+.sidebar ul a li {
+    margin-right: 16px;
+}
+
+#check {
+    display: none;
+}
+
+label #btn, label #close{
+    position: absolute;
+    cursor: pointer;
+}
+
+label #btn{
+    left: 40px;
+    top: 25px;
+    transition: all .5s ease;
+
+}
+
+label #close {
+    z-index: 1111;
+    left: -140px;
+    top: 25px;
+    transition: all .5s ease;
+}
+
+#check:checked ~ .sidebar{
+    left:0;
+}
+
+#check:checked ~ label #btn{
+    left: 250px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+#check:checked ~ label #close{
+    left: 140px;
+}
+
+/*home*/
+
+.home img{
+    width: 45px;
+    margin-right: 30px;
+    margin-top: 15px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*section 1*/
+section :nth-child(1) img{
+    width: 400px;
+}
+
+section :nth-child(1){
+    display: flex;
+    justify-content: center;
+    margin-top: -100;
+}
