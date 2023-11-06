@@ -1,3 +1,46 @@
+@font-face {
+    font-family: budmo;
+    src:url(budmo.ttf.otf)
+}
+
+@font-face {
+    font-family: goldr;
+    src:url(GoldR.otf)
+}
+
+@font-face {
+    font-family: rac;
+    src:url(racoste-ezaqx.ttf)
+}
+
+@font-face {
+    font-family: marm;
+    src:url(Marmelad-Regular.ttf)
+}
+
+
+h1 {
+    font-family: goldr;
+    font: optional;
+}
+
+p {
+    font-family: marm;
+}
+
+h2 {
+    font-family: budmo;
+    font-size: 1.5em;
+}
+
+.cotwee {
+    display: flex;
+    text-align: center;
+    padding: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -5,32 +48,66 @@
     text-decoration: none;
 }
 
-img{
+/*achtergrond kleuren*/
+.homepage {
+    background-color: #FFC457;
+}
+
+.duurzaamheid {
+    background-color: #899A7C;
+}
+
+.spullen {
+    background-color: #C13916;
+}
+
+.waar {
+    background-color: #99C1CE;
+}
+/*samen*/
+main {
+    margin-left: 10px;
+    margin-right: 10px;
+}   
+
+header {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+/*samen*/   
+
+img {
     object-fit: contain;
 }
 
 /*nav*/
-nav img{
+
+.openn img {
     width: 50px;
-    object-fit: contain;
 }
+
+.dichtt img {
+    width: 30px;
+}
+
 .sidebar {
     position: fixed;
     left: -250px;
     width: 200px;
     height: auto;
-    background: forestgreen;
+    background: #F5E8C1;
+    border-radius: 20px;
     transition: all .5s ease;
 }
 
 .sidebar h1 {
-    font-size: 22px;
+    font-size: 30px;
     text-align: center;
     line-height: 75px;
-    background: grey;
+    background: #99C1CE;
 }
 
-.sidebar ul a{
+.sidebar ul a {
     display: block;
     height: 100%;
     width: 100%;
@@ -40,12 +117,14 @@ nav img{
     padding-left: 40px;
     box-sizing: border-box;
     border-top: 1px solid black;
-    border-bottom: 1px solid black;
+    font-family: marm;
 }
 
 ul li:hover {
-    background-color: antiquewhite;
+    background-color: #FFC457;
     transition: 0.2s ease;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 .sidebar ul a li {
@@ -56,59 +135,326 @@ ul li:hover {
     display: none;
 }
 
-label #btn, label #close{
+label #btn, label #close {
     position: absolute;
     cursor: pointer;
 }
 
-label #btn{
-    left: 40px;
-    top: 25px;
+label #btn {
+    left: 25px;
+    top: 32.5px;
     transition: all .5s ease;
 
 }
 
 label #close {
     z-index: 1111;
-    left: -140px;
-    top: 25px;
+    left: -150px;
+    top: 20px;
     transition: all .5s ease;
 }
 
-#check:checked ~ .sidebar{
+#check:checked ~ .sidebar {
     left:0;
 }
 
-#check:checked ~ label #btn{
+#check:checked ~ label #btn {
     left: 250px;
     opacity: 0;
     pointer-events: none;
 }
 
-#check:checked ~ label #close{
-    left: 140px;
+#check:checked ~ label #close {
+    left: 150px;
 }
 
 /*home*/
 
-.home img{
+.home img {
     width: 45px;
-    margin-right: 30px;
     margin-top: 15px;
+    margin-right: 15px;
 }
 
-header{
+header {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 0;
 }
+
+/*--------------------HOMEPAGE-----------------*/
 
 /*section 1*/
-section :nth-child(1) img{
-    width: 400px;
+
+.tekst_blok {
+    background-color: #F5E8C1;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border-radius: 15px;
+    margin-bottom: 5px;
+    margin-top: 35px;
 }
 
-section :nth-child(1){
+/*samen*/
+.tekst_blok h1 {
+    justify-content: start;
+}
+
+.tekstfoto h1 {
+    justify-content: start; 
+}
+/*samen*/
+
+.platen {
+    margin-bottom: 25px;
+}
+
+img {
+    width: 100%;
+}
+
+/*section 2*/
+.tekstfoto {
+    display: flex;
+    flex-direction: column;
+}
+
+.sectwee img {
+    width: 100px;
+    border: 3px dotted black;
+}
+
+.border {
+    border: 2.5px solid black;
+}
+
+.sectwee {
+    display: flex;
+    padding: 15px;
+    align-items:flex-start;
+    margin-bottom: 30px;
+}
+
+/*section 3*/
+.secdrie {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    margin-top: 10px;
+    background-color: #C13916;
+    width: 195px;
+    padding: 15px;
+    border-radius: 100px;
+    text-align: center;
+    height: 100px;
+}
+
+.secvier {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    background-color: #C13916;
+    width: 195px;
+    padding: 15px;
+    border-radius: 100px;
+    text-align: center;
+    height: 100px;
+}
+
+.buiten {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/*bar plaatje*/
+.bar img {
+    width: 375px;
+}
+
+.bar {
+    margin-bottom: 0;
+    margin-top: 40px;
+}
+
+/*----------------DUURZAAMHEID----------------*/
+.plaateen img{
+    width: 100px;
+}
+
+.plaateen {
+    display: flex; 
+    align-items: stretch;
+
+    margin-top: 35px;
+    font-size: 15px;
+}
+
+.plaateen h1 {
+    justify-content: start; 
+}
+
+.plaateen div :nth-child(1) {
+    margin-right: 7px;
+}
+
+
+/*---------------------SPULLEN---------------------*/
+.spullenlogo img {
+    width: 200px;
+}
+
+.spullenlogo {
     display: flex;
     justify-content: center;
-    margin-top: -100;
+}
+
+.SPseceen h1 {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    margin-top: 50px;
+    background-color: #FFC457;
+    width: 195px;
+    padding: 15px;
+    border-radius: 100px;
+    text-align: center;
+}
+
+.SPsectwee {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    background-color: #FFC457;
+    width: 195px;
+    padding: 15px;
+    border-radius: 100px;
+    text-align: center;
+}
+
+.auto {
+    margin-bottom: 0;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.auto img {
+    width: 300px;
+}
+
+.tegels {
+    margin-top: 0;
+}
+
+/*foto links*/
+.foto {
+    display: flex;
+    margin-top: 30px;
+}
+
+.foto div {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    background-color: #FFC457;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.foto h1 {
+    justify-content: start;
+}
+
+.foto img {
+    width: 50%;
+    border-radius: 15px;
+}
+
+/*foto rechts*/
+.fotoR {
+    display: flex;
+    margin-top: 30px;
+}
+
+.fotoR div {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    margin-right: 10px;
+    background-color: #FFC457;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.fotoR h1 {
+    justify-content: start;
+}
+
+.fotoR img {
+    width: 50%;
+    border-radius: 15px;
+}
+
+.SPplaat img {
+    width: 100%;
+}
+
+.SPplaat {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+/*-----------------------WAAR--------------------*/
+
+.waarlogo img {
+    width: 300px;
+}
+
+.waarlogo {
+    display: flex;
+    justify-content: center;
+}
+
+.locatie {
+    display: flex;
+    flex-direction: column;
+}
+
+.same {
+    justify-content: center;
+    width: 300px;
+    margin-top: 35px;
+}
+
+.same h1 {
+    font-size: 1em;
+}
+
+.langplaat img {
+    width: 250px;
+}
+
+.langplaat {
+    display: flex;
+    justify-content: center;
+}
+
+.same div {
+    display: flex;
+    justify-content:center;
+    margin-left: 50px;
+}
+
+.winkel {
+    margin-top: 35px;
+}
+
+.plaatjedruk {
+    display: flex;
+    text-align: center;
+    padding: 20px;
+    justify-content: center;
+    margin-top: 35px;
+    background-color: #F5E8C1;
 }
