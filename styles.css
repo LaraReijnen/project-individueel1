@@ -231,7 +231,7 @@ img {
 
 .sectwee {
     display: flex;
-    padding: 15px;
+    padding: 20px;
     align-items:flex-start;
     margin-bottom: 30px;
 }
@@ -244,7 +244,7 @@ img {
     margin-top: 10px;
     background-color: #C13916;
     width: 195px;
-    padding: 15px;
+    padding: 20px;
     border-radius: 100px;
     text-align: center;
     height: 100px;
