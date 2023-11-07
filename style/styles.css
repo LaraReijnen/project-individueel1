@@ -1,21 +1,21 @@
 @font-face {
     font-family: budmo;
-    src:url(budmo.ttf.otf)
+    src:url(fonts/budmo.ttf.otf)
 }
 
 @font-face {
     font-family: goldr;
-    src:url(GoldR.otf)
+    src:url(fonts/GoldR.otf)
 }
 
 @font-face {
     font-family: rac;
-    src:url(racoste-ezaqx.ttf)
+    src:url(fonts/racoste-ezaqx.ttf)
 }
 
 @font-face {
     font-family: marm;
-    src:url(Marmelad-Regular.ttf)
+    src:url(fonts/Marmelad-Regular.ttf)
 }
 
 
