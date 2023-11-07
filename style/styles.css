@@ -9,15 +9,9 @@
 }
 
 @font-face {
-    font-family: rac;
-    src:url(fonts/racoste-ezaqx.ttf)
-}
-
-@font-face {
     font-family: marm;
     src:url(fonts/marmelad-Regular.ttf)
 }
-
 
 h1 {
     font-family: goldr;
