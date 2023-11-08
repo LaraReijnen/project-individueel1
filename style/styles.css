@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Marmelad&family=Montserrat:wght@500&family=Titan+One&display=swap');
 
 @font-face {
-    font-family: goldr;
+    font-family: goud;
     src:url(../fonts/goldR.otf)
 }
 
@@ -10,8 +10,15 @@
     src:url(../fonts/budmo.otf)
 }
 
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
 h2 {
-    font-family: goldr;
+    font-family: goud;
 }
 
 p, h4 {
@@ -28,12 +35,7 @@ footer {
     justify-content: center;
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-decoration: none;
-}
+
 
 /*achtergrond kleuren*/
 .homepage {
@@ -204,7 +206,7 @@ header {
 /*samen*/
 
 .platen {
-    margin-bottom: 25px;
+    margin-bottom: 10px;
 }
 
 img {
