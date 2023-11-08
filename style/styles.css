@@ -17,13 +17,18 @@ h1 {
     font-family: goldr;
 }
 
-p {
+p, h3 {
     font-family: marm;
 }
 
 h2 {
     font-family: budmo;
     font-size: 1.5em;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
 }
 
 .cotwee {
@@ -57,6 +62,7 @@ h2 {
 .waar {
     background-color: #99C1CE;
 }
+
 /*samen*/
 main {
     margin-left: 10px;
