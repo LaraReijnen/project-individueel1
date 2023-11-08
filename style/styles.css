@@ -309,7 +309,7 @@ img {
     justify-content: center;
 }
 
-.SPseceen h1 {
+.SPseceen h2 {
     display: flex;
     flex-direction: column;
     justify-content:flex-start;
@@ -405,7 +405,9 @@ img {
     justify-content: center;
     margin-top: 30px;
     margin: 5px;
+
 }
+
 /*-----------------------WAAR--------------------*/
 
 .waarlogo img {
