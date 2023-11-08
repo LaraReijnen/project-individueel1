@@ -10,15 +10,15 @@
     src:url(../fonts/goldR.otf)
 }
 
-h1 {
+h2 {
     font-family: goldr;
 }
 
-p, h3 {
+p, h4 {
     font-family: 'Marmelad', sans-serif;
 }
 
-h2 {
+h3 {
     font-family: budmo;
     font-size: 1.5em;
 }
