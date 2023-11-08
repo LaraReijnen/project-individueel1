@@ -1,16 +1,16 @@
 @font-face {
     font-family: budmo;
-    src:url(fonts/budmo.otf)
+    src:url(../fonts/budmo.otf)
 }
 
 @font-face {
     font-family: goldr;
-    src:url(fonts/goldr.otf)
+    src:url(../fonts/goldr.otf)
 }
 
 @font-face {
     font-family: marm;
-    src:url(fonts/marmelad-Regular.ttf)
+    src:url(../fonts/marmelad-Regular.ttf)
 }
 
 h1 {
