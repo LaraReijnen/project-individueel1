@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Marmelad&family=Montserrat:wght@500&family=Titan+One&display=swap');
+
 @font-face {
     font-family: budmo;
     src:url(../fonts/budmo.otf)
@@ -8,17 +10,12 @@
     src:url(../fonts/goldR.otf)
 }
 
-@font-face {
-    font-family: marm;
-    src:url(../fonts/mmarmelad-Regular.ttf)
-}
-
 h1 {
     font-family: goldr;
 }
 
 p, h3 {
-    font-family: marm;
+    font-family: 'Marmelad', sans-serif;
 }
 
 h2 {
