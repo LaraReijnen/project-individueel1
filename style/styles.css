@@ -1,14 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Marmelad&family=Montserrat:wght@500&family=Titan+One&display=swap');
 
 @font-face {
+    font-family: goldr;
+    src:url(../fonts/goldR.otf)
+}
+
+@font-face {
     font-family: budmo;
     src:url(../fonts/budmo.otf)
 }
 
-@font-face {
-    font-family: goldr;
-    src:url(../fonts/goldR.otf)
-}
+
 
 h2 {
     font-family: goldr;
