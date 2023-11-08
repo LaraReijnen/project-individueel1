@@ -10,8 +10,6 @@
     src:url(../fonts/budmo.otf)
 }
 
-
-
 h2 {
     font-family: goldr;
 }
@@ -28,14 +26,6 @@ h3 {
 footer {
     display: flex;
     justify-content: center;
-}
-
-.cotwee {
-    display: flex;
-    text-align: center;
-    padding: 20px;
-    justify-content: center;
-    margin-top: 20px;
 }
 
 *{
@@ -183,6 +173,15 @@ header {
 /*--------------------HOMEPAGE-----------------*/
 
 /*section 1*/
+
+.cotwee {
+    display: flex;
+    text-align: center;
+    padding: 20px;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
 
 .tekst_blok {
     background-color: #F5E8C1;
